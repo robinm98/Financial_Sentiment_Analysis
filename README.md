@@ -1,3 +1,1 @@
-# Sent_Project
-
-Personnal project to learn sentiment analysis with Machine Learning
+This project involves sentiment analysis on financial news headlines, with a specific emphasis on developing and comparing various machine learning models to predict sentiment. The study aims to determine whether a headline conveys a positive, negative, or neutral sentiment. By evaluating different models, the project seeks to identify the most effective approach for accurately assessing sentiment in financial news.
