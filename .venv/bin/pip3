@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/robin/Library/Mobile Documents/com~apple~CloudDocs/UNIL/HEC cours/Master/Personnal Project/Sent_Project/.venv/bin/python3" "$0" "$@"
+'''exec' "/Users/robin/Library/Mobile Documents/com~apple~CloudDocs/UNIL/HEC cours/Master/Personnal Project/Data Analysis/Sent_Project/.venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
