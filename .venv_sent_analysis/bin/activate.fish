@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/robin/Library/Mobile Documents/com~apple~CloudDocs/UNIL/HEC cours/Master/Personnal Project/Data Analysis/Sent_Project/.venv"
+set -gx VIRTUAL_ENV "/Users/robin/Library/Mobile Documents/com~apple~CloudDocs/UNIL/HEC cours/Master/Personnal Project/Data Analysis/Sent_Project/.venv_sent_analysis"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -56,7 +56,7 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Output the venv prompt; color taken from the blue of the Python logo.
-        printf "%s%s%s" (set_color 4B8BBE) "(.venv) " (set_color normal)
+        printf "%s%s%s" (set_color 4B8BBE) "(.venv_sent_analysis) " (set_color normal)
 
         # Restore the return status of the previous command.
         echo "exit $old_status" | .
@@ -65,5 +65,5 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
     end
 
     set -gx _OLD_FISH_PROMPT_OVERRIDE "$VIRTUAL_ENV"
-    set -gx VIRTUAL_ENV_PROMPT "(.venv) "
+    set -gx VIRTUAL_ENV_PROMPT "(.venv_sent_analysis) "
 end
